@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+.m2/
+*.classpath
+*.project
+*.settings/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Java
+*.class
+*.log
+
+# Build
+build/
+dist/
+
+# Misc
+.classpath
+.factorypath
+.c9/
+*.iws
+*.ipr
