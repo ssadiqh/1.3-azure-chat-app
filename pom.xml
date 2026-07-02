@@ -6,12 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>claude-chat-app</artifactId>
-    <version>1.0.0</version>
+    <artifactId>1.3-claude-chat-app</artifactId>
+    <version>1.3.0</version>
     <packaging>jar</packaging>
 
-    <name>Claude Chat App</name>
-    <description>A Java chat application using Claude AI</description>
+    <name>1.3 Claude Chat App</name>
+    <description>Azure OpenAI Chat App in Java with 7 authentication methods and Responses API learning roadmap</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
