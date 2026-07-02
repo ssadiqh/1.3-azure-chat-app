@@ -1,4 +1,4 @@
-# 1.3 Claude Chat App - Java Edition
+# 1.3 Azure Chat App - Java Edition
 
 A Spring Boot chat application that demonstrates building a generative AI chat app using **Azure OpenAI** with **flexible authentication** and a **clear learning roadmap** for implementing the Responses API.
 

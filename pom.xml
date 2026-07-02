@@ -6,11 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>1.3-claude-chat-app</artifactId>
+    <artifactId>1.3-azure-chat-app</artifactId>
     <version>1.3.0</version>
     <packaging>jar</packaging>
 
-    <name>1.3 Claude Chat App</name>
+    <name>1.3 Azure Chat App</name>
     <description>Azure OpenAI Chat App in Java with 7 authentication methods and Responses API learning roadmap</description>
 
     <parent>
