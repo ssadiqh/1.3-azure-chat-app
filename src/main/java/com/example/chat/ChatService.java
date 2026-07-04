@@ -37,7 +37,11 @@ public class ChatService {
     // ============================================================================
 
     public ChatService() {
-        Dotenv dotenv = Dotenv.load();
+        String projectDir = System.getProperty("user.dir");
+        if (!projectDir.endsWith("1.3-azure-chat-app")) {
+            projectDir = projectDir + "/1.3-azure-chat-app";
+        }
+        Dotenv dotenv = Dotenv.configure().directory(projectDir).load();
         String endpoint = dotenv.get("AZURE_OPENAI_ENDPOINT");
         this.modelDeployment = dotenv.get("MODEL_DEPLOYMENT");
         this.maxTokens = Integer.parseInt(dotenv.get("MAX_TOKENS", "1024"));
